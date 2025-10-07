@@ -1,5 +1,5 @@
 <li class="nav-item">
-    <a href="{{ .link }}">{{ .key }}</a>
+  <a href="{{ .link | relURL }}">{{ .key }}</a>
     {{ with .children }}
       <ul class="dropdown">
         {{ range . }}
