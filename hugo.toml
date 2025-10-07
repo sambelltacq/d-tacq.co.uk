@@ -1,7 +1,6 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'D-tacq Solutions '
-#theme = "mainroad"
+baseURL = 'https://sambelltacq.github.io/d-tacq.co.uk/'
+languageCode = 'en-gb'
+title = 'D-tacq Solutions'
 theme = "d-tacq_theme"
 
 
