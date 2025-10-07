@@ -1,31 +1,23 @@
-+++
-title = "FMC/Modular"
+---
 
-[[images]]
-filename = "vertical-9U-14slot.jpg"
-alt = "Big Systems: Compact PCI, 14 slots, 9U"
+title: "D-TACQ : FMC/Modular"
 
-[[images]]
-filename = "Networked-384.jpg"
-alt = "Small Systems: Compact PCI, 4 slots, 2U"
+images:
+  - filename: "vertical-9U-14slot.jpg"
+    alt: "Big Systems: Compact PCI, 14 slots, 9U"
+  - filename: "Networked-384.jpg"
+    alt: "Small Systems: Compact PCI, 4 slots, 2U"
+  - filename: "acq2006-blf-w.jpg"
+    alt: "Compact Systems: ACQ2006, 48 channels, RJ45 connectors"
+  - filename: "radcelf-acq1001-stack-side-w.jpg"
+    alt: "OEM Systems: open stack, 16 channels, DDS clock module"
+  - filename: "acq132.jpg"
+    alt: "Cards: ACQ132CPCI"
+  - filename: "acq480fmc.jpg"
+    alt: "Modules: ACQ480FMC"
 
-[[images]]
-filename = "acq2006-blf-w.JPG"
-alt = "Compact Systems: ACQ2006, 48 channels, RJ45 connectors"
+---
 
-[[images]]
-filename = "radcelf-acq1001-stack-side-w.jpg"
-alt = "OEM Systems: open stack, 16 channels, DDS clock module"
-
-[[images]]
-filename = "acq132.jpg"
-alt = "Cards: ACQ132CPCI"
-
-[[images]]
-filename = "acq480fmc.jpg"
-alt = "Modules: ACQ480FMC"
-
-+++
 ### FMC/Modular
 
 ***DTACQ*** makes a large and increasing range of analog modules based on <tooltip>FMC</tooltip>, a module standard that allows IO to connect directly to a <tooltip>FPGA</tooltip> device with no additional bus layer, allowing efficient, low cost but high performance modules. A compatible carrier is required to operate the module. ***DTACQ*** FMC modules fit compatible sites in both our own ACQ1001, ACQ2106 and third party carriers.

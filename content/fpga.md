@@ -1,31 +1,22 @@
-+++
-title = "FPGA"
+---
 
-[[images]]
-filename = "vertical-9U-14slot.jpg"
-alt = "Big Systems: Compact PCI, 14 slots, 9U"
+title: "D-TACQ : FPGA"
 
-[[images]]
-filename = "Networked-384.jpg"
-alt = "Small Systems: Compact PCI, 4 slots, 2U"
+images:
+  - filename: "vertical-9U-14slot.jpg"
+    alt: "Big Systems: Compact PCI, 14 slots, 9U"
+  - filename: "Networked-384.jpg"
+    alt: "Small Systems: Compact PCI, 4 slots, 2U"
+  - filename: "acq2006-blf-w.jpg"
+    alt: "Compact Systems: ACQ2006, 48 channels, RJ45 connectors"
+  - filename: "radcelf-acq1001-stack-side-w.jpg"
+    alt: "OEM Systems: open stack, 16 channels, DDS clock module"
+  - filename: "acq132.jpg"
+    alt: "Cards: ACQ132CPCI"
+  - filename: "acq480fmc.jpg"
+    alt: "Modules: ACQ480FMC"
 
-[[images]]
-filename = "acq2006-blf-w.JPG"
-alt = "Compact Systems: ACQ2006, 48 channels, RJ45 connectors"
-
-[[images]]
-filename = "radcelf-acq1001-stack-side-w.jpg"
-alt = "OEM Systems: open stack, 16 channels, DDS clock module"
-
-[[images]]
-filename = "acq132.jpg"
-alt = "Cards: ACQ132CPCI"
-
-[[images]]
-filename = "acq480fmc.jpg"
-alt = "Modules: ACQ480FMC"
-
-+++
+---
 
 ### FPGA Capability
 ***DTACQ*** cards use an advanced Field Programmable Gate Array FPGA for data marshalling. The configuration image for the <tooltip>FPGA</tooltip> is held in local flash memory, allowing for easy in system upgrade. The devices used on the 2G series of cards have sufficient spare capacity to perform significant real time DSP on captured data in real time as it passes through the <tooltip>FPGA</tooltip>. ***DTACQ*** has implemented a range of standard DSP functions to ship with the data, including
