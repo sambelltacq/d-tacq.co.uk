@@ -1,0 +1,4 @@
+public
+*.webp
+*.lock
+content/.obsidian
