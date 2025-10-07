@@ -1,45 +1,45 @@
 [
     {
       "key": "About",
-      "link": "/about",
+      "link": "about",
       "children": [
-        { "key": "Architecture", "link": "/architecture" },
-        { "key": "Intelligent Digitizers", "link": "/intelligent_digitizers" },
-        { "key": "Software", "link": "/software" },
-        { "key": "FPGA", "link": "/fpga" },
-        { "key": "FMC/Modular", "link": "/fmc_modular" },
-        { "key": "CompactPCI", "link": "/compact_pci" }
+        { "key": "Architecture", "link": "architecture" },
+        { "key": "Intelligent Digitizers", "link": "intelligent_digitizers" },
+        { "key": "Software", "link": "software" },
+        { "key": "FPGA", "link": "fpga" },
+        { "key": "FMC/Modular", "link": "fmc_modular" },
+        { "key": "CompactPCI", "link": "compact_pci" }
       ]
     },
     {
       "key": "Products",
-      "link": "/products",
+      "link": "products",
       "children": [
-        { "key": "Modules", "link": "/products/modules" },
-        { "key": "Carriers", "link": "/products/carriers" },
-        { "key": "MTCA.4", "link": "/products/mtca_4" },
-        { "key": "CPCI", "link": "/products/cpci" }
+        { "key": "Modules", "link": "products/modules" },
+        { "key": "Carriers", "link": "products/carriers" },
+        { "key": "MTCA.4", "link": "products/mtca_4" },
+        { "key": "CPCI", "link": "products/cpci" }
       ]
     },
     {
         "key": "Systems",
-        "link": "/TODO"
+        "link": "TODO"
     },
     {
         "key": "Applications",
-        "link": "/TODO"
+        "link": "TODO"
     },
     {
         "key": "Resources",
-        "link": "/TODO"
+        "link": "TODO"
     },
     {
         "key": "News",
-        "link": "/TODO"
+        "link": "TODO"
     },
     {
         "key": "Contact",
-        "link": "/TODO"
+        "link": "TODO"
     }
   ]
   
