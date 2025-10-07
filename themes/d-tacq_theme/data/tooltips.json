@@ -1,0 +1,58 @@
+{
+    "ADC": { 
+      "title": "Analog to Digital Convertor", 
+      "body": "ADC device converts input voltage to digital word." 
+    },
+    "FPGA": { 
+        "title": "Field Programmable Gate Array", 
+        "body": "A large programmable logic device. The FPGA program image on D-TACQ products is loaded from flash memory at boot time, allowing for easy in-system upgrade." 
+    },
+    "CPCI": { 
+        "title": "Compact PCI", 
+        "body": "Industrial implementation of the PCI bus, based on standard Eurocard modules." 
+    },
+    "SAR": { 
+        "title": "Successive Approximation Register", 
+        "body": "ADC control alogorithm ramps digital value stepwise until analog match is obtained" 
+    },
+    "GPL": { 
+        "title": "GNU General Public License", 
+        "body": "Open Source Software license" 
+    },
+    "EPICS": { 
+        "title": "Experimental Physics and Industrial Control System", 
+        "body": "A set of software tools, libraries and applications developed collaboratively and used worldwide to create distributed soft real-time control systems for scientific instruments such as a particle accelerators, telescopes and other large scientific experiments." 
+    },
+    "MDSplus": { 
+        "title": "MDSplus", 
+        "body": "A set of software tools for data acquisition and storage and a methodology for management of complex scientific data." 
+    },
+    "CSS/BOY": { 
+        "title": "Control System Studio", 
+        "body": "Multiplatform Operator Interface (OPI) used with EPICS process control system. Example OPI provided by D-TACQ may be easily extended by the user. Cross-platform runtime available free of charge" 
+    },
+    "dropbear": { 
+        "title": "Dropbear", 
+        "body": "Dropbear is a relatively small SSH 2 server and client. It runs on a variety of POSIX-based platforms. Dropbear is open source software, distributed under a MIT-style license. Dropbear is particularly useful for embedded-type Linux (or other Unix) systems" 
+    },
+    "6U": { 
+        "title": "6U - Eurocard formfactor", 
+        "body": "Large 230mm x 170mm" 
+    },
+    "3U": { 
+        "title": "3U - Eurocard formfactor", 
+        "body": "Small 100mm x 170mm" 
+    },
+    "PXI": { 
+        "title": "PCI eXtensions for Instrumentation", 
+        "body": "Additional signaling on top of the Compact PCI standard."
+    },
+    "SBC": { 
+        "title": "Single Board Computer", 
+        "body": "Self contained computer system in single slot standard formfactor"
+    },
+    "ACQ196CPCI": { 
+        "title": "ACQ196CPCI", 
+        "body": "96 channel 500 kSPS Simultaneous Digitizer"
+    }
+}

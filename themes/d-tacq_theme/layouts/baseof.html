@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width">
+    <title>{{ .Title | default .Site.Title }}</title>
+    {{ partialCached "head/css.html" . }}
+    {{ partialCached "head/js.html" . }}
+</head>
+<body>
+    <header>
+        <div class="banner">
+            <a href="/"> 
+                <img src="/images/d-tacq.png">
+            </a>
+            <h2>High Performance Simultaneous Data Acquisition</h2>
+        </div>
+        <nav class="navbar">
+            <ul class="nav">
+              {{ range site.Data.nav }}
+                {{ partial "nav-item.html" . }}
+              {{ end }}
+            </ul>
+        </nav>
+    </header>
+    <main style="display: flex; gap: 2rem;">
+      
+        <section style="flex: 1;">
+          {{ block "main" . }}{{ end }}
+        </section>
+        
+        {{ if .Params.images }}
+        <aside class="gallery">
+            {{ $global := site.GetPage "section" "images" }}
+            {{ range .Params.images }}
+            {{ $img := $global.Resources.GetMatch .filename }}
+                {{ if $img }}
+                    {{ $thumb := $img.Fit "200x200 webp q70" }}
+                    <img class="gallery-img" src="{{ $thumb.RelPermalink }}" alt="{{ .alt }}" data-original="{{ $img.RelPermalink }}">
+                {{ end }}
+            {{ end }}
+        </aside>
+        {{ end }}
+      
+      </main>
+    <footer>
+        <h4>D-TACQ Solutions Ltd</h4>
+        <p>International House Stanley Blvd, Blantyre</p>
+        <p>G72 0BN Scotland UK</p>
+        <p>tel: +44 1698 826060 email:info@d-tacq.co.uk</p>
+        <p>All Trademarks acknowledged</p>
+        <p>Debug {{ .Kind }} {{ now.Year }}</p>
+    </footer>
+    <div id="lightbox">
+        <img src="" alt="">
+        <div class="caption"></div>
+    </div>
+</body>
+</html>

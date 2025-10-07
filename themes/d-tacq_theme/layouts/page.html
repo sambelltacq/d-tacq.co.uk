@@ -1,0 +1,10 @@
+{{ define "main" }}
+  {{ $content := .Content }}
+  {{ range $key, $val := .Site.Data.tooltips }}
+    {{ $pattern := printf "(?i)<tooltip>(%s)</tooltip>" $key }}
+    {{ $replacement := printf "<tooltip data-title=\"%s\" data-body=\"%s\">$1</tooltip>" $val.title $val.body }}
+    {{ $content = replaceRE $pattern $replacement $content }}
+  {{ end }}
+  {{ $content | safeHTML }}
+{{ end }}
+

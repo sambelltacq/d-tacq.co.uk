@@ -1,0 +1,10 @@
+<li class="nav-item">
+    <a href="{{ .link }}">{{ .key }}</a>
+    {{ with .children }}
+      <ul class="dropdown">
+        {{ range . }}
+          {{ partial "nav-item.html" . }}
+        {{ end }}
+      </ul>
+    {{ end }}
+  </li>
